@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block">
+<h1>App de Comparacion de Pizzas</h1>
+<form>
+    <label for="radio_0">radio</label>
+    <input name="radio_0" type="number" step="0.01" id="radio_0" required>
+    <label for="precio_0">precio</label>
+    <input name="precio_0" type="number" step="0.01" id="precio_0" required> 
+    <br>
+    <br>
+    <label for="radio_1">radio</label>
+    <input name="radio_1" type="number" step="0.01" id="radio_1" required>
+    <label for="precio_1">precio</label>
+    <input name="precio_1" type="number" step="0.01" id="precio_1" required> 
+    <br>
+    <br>
+    <label for="radio_2">radio</label>
+    <input name="radio_2" type="number" step="0.01" id="radio_2" >
+    <label for="precio_2">precio</label>
+    <input name="precio_2" type="number" step="0.01" id="precio_2" > 
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <br>
+    <br>
+</form>
+</div>
+{% endblock %}
